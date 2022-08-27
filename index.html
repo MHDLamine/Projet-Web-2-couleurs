@@ -8,7 +8,7 @@
     <title>projet web 1</title>
 </head>
 <body>
-    <main>
+    <section>
         <img src="img/image.jpeg">
         <h4>Mon premier TP : Mouhamed Lamine NGOM</h4>
         <div class="container">
@@ -18,8 +18,30 @@
             <div class="bloc"><p class="para"> bloc 4 </p></div>  
         </div>
         <div class="container-button"><img onclick="play();" 
-            class="button" src="img/button.jpg" alt="changer de couleurs"></div>
-    </main>
+        class="button" src="img/button.jpg" alt="changer de couleurs"></div>
+    </section>
+    <div class="section2">
+        <div class="box">
+            <div class="form">
+                <form action="" method="" autocomplete="on">
+                    <label for="username">Prenom</label></br></br>
+                    <input type="text" id="username" class="saisie" autofocus required placeholder="Prenom"></br></br>
+                    <label for="name">Nom </label></br></br>
+                    <input type="text" id="name" class="saisie" required placeholder="Nom"></br></br>
+                    <label for="mail">Mail</label></br></br>
+                    <input type="email" id="mail" class="saisie" required placeholder="Votre adresse mail"></br></br>
+                    <label for="phone">Téléphone</label></br></br>
+                    <input type="phone" id="phone" class="saisie" placeholder="Numéro de téléphone"></br></br>
+                    <label for="message">Messages</label></br></br>
+                    <textarea name="message" id="message" rows="8" cols="28" placeholder="Message"></textarea><br><br>
+                    <input type="button" name="submit" id="submit" value="VALIDE"></br>
+                </form>
+            </div>
+            <div id="list">
+           
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
